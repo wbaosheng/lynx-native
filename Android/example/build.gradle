@@ -41,8 +41,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.2.0'
     testCompile 'junit:junit:4.12'
 
-    debugCompile project(path:":sdk",configuration:'debug')
-    releaseCompile project(path:":sdk",configuration:'release')
+    implementation project(":sdk")
     compile 'com.android.volley:volley:1.0.0'
 
     // picasso
